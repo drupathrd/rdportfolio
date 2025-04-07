@@ -57,5 +57,8 @@ contact.html
 📞Contact
 Feel free to reach out through the contact form or connect on:
 - Gmail: [drupathrd@gmail.com](mailto:drupathrd@gmail.com)
-- Instagram: [@the_.nath](https://www.instagram.com/drupath_r_d/)
+- Instagram: [@drupath_r_d](https://www.instagram.com/drupath_r_d/)
 -GitHub: [My GitHub Dashboard](https://github.com/dashboard)
+
+🪪License 
+This project is for personal/educational use. You may reuse it with credit. © 2025 Drupathrd.
