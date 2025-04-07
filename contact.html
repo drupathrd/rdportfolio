@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head><link rel="stylesheet" href="contact.css">
+</head>
+<body>
+<div class="container">
+     <header>
+     <a href class="logo">portfolio.</a>
+     <nav class="navbar">
+     <a href="index.html" >home</a>
+     <a href="about.html">about</a>
+     <a href="porfolio.html">portfolio</a>
+     <a href="project.html">project</a>
+     <a href=""class="active">contact</a>
+     </nav>
+    </header>
+    <main>
+        <input type="checkbox" id="thank-you-trigger">
+        <div class="container2">
+        <h1 class="contact-h1">Contact Me</h1>
+        <p class="contact-p">I’d love to hear from you! Whether you have a question, want to discuss a project, or just want to connect, feel free to reach out.</p>
+        <h2 style="color:#dfe8e1;text-decoration:underline;text-align:center">Contact Form</h2>
+        <form 
+          action="https://docs.google.com/forms/d/e/1FAIpQLSfQn3rpYlxyaUdvMVHswHLYEBfaa7IfSud7mYvFpmx5Moxm_Q/formResponse" 
+          method="POST" 
+          target="hidden_iframe" 
+          onsubmit="document.getElementById('thank-you-trigger').checked = true;">
+        
+        <div>
+        <label for="name">Name:</label>
+        <br>
+        <input type="text" id="name" name="entry.986730230" placeholder="Your Name" required />
+        </div>
+        <div>
+        <label for="email">Email:</label>
+        <br>
+        <input type="email" id="email" name="entry.529718145" placeholder="Your Email" required />
+        </div>
+        <div>
+        <label for="message">Message:</label>
+        <br>
+        <textarea id="message" name="entry.1703757584" placeholder="Your Message" rows="4" required></textarea>
+        </div>
+        <div>
+        <button type="submit">Send Message</button>
+        </div>
+        </form>
+        </div>
+        <div class="thank-you-message">Thank You! Your message has been sent.<br><p style="text-align:center;color:white">Will try to reach out soon!</p></div>
+        <p class="contact-p" style="text-align:center;"><b>Connect through mail, Instagram, or GitHub.</b></p>
+       </main>
+        
+        
+        <iframe name="hidden_iframe" style="display:none;"></iframe>
+        </body>
+        </html>
