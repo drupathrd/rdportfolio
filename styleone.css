@@ -1,0 +1,125 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    padding: 50px 5%;
+}
+.container {
+    position: relative;
+    height: 100%;
+    background:seagreen;
+    border-radius:30px;
+    }
+header {
+    position:absolute;
+    top:0; 
+    left:0;
+    width:100%;
+    padding:25px 5%;
+    display:flex;
+    justify-content:space-between;
+    align-items: center; 
+    z-index:100;
+    }
+.logo
+    {
+    font-size:25px;
+    color: #fff;
+    text-decoration:none;
+    font-weight:600;
+    }
+.navbar a {
+    font-size:18px;
+    color:#fff;
+    text-decoration:none;
+    font-weight:500; 
+    margin-left:35px;
+    border-bottom:2px solid transparent;
+    transition:5s;
+}
+.navbar a:hover,
+.navbar a.active{
+    border-color: #fff;
+}
+.home {
+    display:flex;
+    align-items:center;
+    height: 100%;
+    gap:50px;
+    padding:50px 5% 0;
+    color: #fff;
+}
+.home-detail h1 {
+    font-size:55px;
+    line-height: 1;
+}
+.home-detail h1 {
+    font-size: 55px;
+}
+.home-detail p {
+    margin:10px 0 20px;
+}
+.home-detail .social-icons {
+    margin-left: 20px;
+}
+.home-detail .download-social{
+ display: flex; 
+ align-items:center;
+}
+.btn{
+display: inline-block;
+padding:10px 30px;
+background:white;
+border: 2px solid #fff;
+border-radius:40px;
+box-shadow: 0 0 10px #fff;
+color:#333;
+text-decoration:none;
+font-weight: 500;
+}
+.home-detail .social-icons a{
+display:inline-flex;
+padding:8px;
+border:2px solid #fff;
+border-radius:50%;
+font-size:20px;
+color:white;
+text-decoration: none;
+margin:8px;
+transition: .5s;
+}
+.abouth {
+    display:flex;
+    align-items:top;
+    height: 35%;
+    gap:50px;
+    padding:50px 5% 5%;
+    color: #fff;
+}
+.about-detail k {
+    font-size:46px;
+    line-height: 2;
+}
+.btnone{
+    display: inline-block;
+    padding:20px 50px;
+    background:white;
+    border: 2px solid #fff;
+    border-radius:40px;
+    box-shadow: 0 0 10px #fff;
+    color:#333;
+    text-decoration:none;
+    font-weight: 500;
+    
+    }
+    img {
+        float: relative; /* Aligns the image to the left */
+        width: 200px; /* Adjust size as needed */
+        height: auto;
+        margin-right: 20px; /* Adds spacing between image and text */
+    }
