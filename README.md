@@ -53,3 +53,9 @@ contact.html
 - A clean and formatted digital resume.(A separate webpage dedicated to the resume alone).
 - Includes sections like Skills, Education, Extra-Curriculars, Languages, Hobbies, and more.
 - Ends with a button linking back to the Contact page.
+
+📞Contact
+Feel free to reach out through the contact form or connect on:
+- Gmail: [drupathrd@gmail.com](mailto:drupathrd@gmail.com)
+- Instagram: [@the_.nath](https://www.instagram.com/drupath_r_d/)
+-GitHub: [My GitHub Dashboard](https://github.com/dashboard)
