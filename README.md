@@ -32,25 +32,24 @@ portfolio-website
 .styles.css # (If external CSS is used instead of internal <style>)
 
 Pages Overview
-* Home.html
+Home.html
 - The landing page introducing myself.Gives the viewers a good impression abpout the vebpage.Tried including attractive css techniques and transitions
 -he header section (Navigation bar) contains Navigation links to Home, About, Projec sume, and Contact pages
 - A footer session is also included for enhancing the look of the webpage.
 - Social media links: Gmail, GitHub, Instagram.
   
-* about.html
+about.html
 - A brief summary about my background, passion, and experience.
 
-* projects.html
+projects.html
 - A collection of my past and ongoing projects.
 - Includes GitHub links, images, and embedded demos; Also a drive link where the detailed reports regarding the projects along with the videos regarding working of my project is present
 
-* contact.html
+contact.html
 - A fully responsive contact form integrated with Google Forms.
 - Displays a custom "Thank You" message after submission.(Used Java script for this)
 
-
-* portfolio.html
+ portfolio.html
 - A clean and formatted digital resume.(A separate webpage dedicated to the resume alone).
 - Includes sections like Skills, Education, Extra-Curriculars, Languages, Hobbies, and more.
 - Ends with a button linking back to the Contact page.
